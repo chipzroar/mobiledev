@@ -23,7 +23,7 @@ public class Activity_Registration extends AppCompatActivity {
         EditText firstName = findViewById(R.id.firstName);
         EditText lastName = findViewById(R.id.lastName);
         EditText bDate = findViewById(R.id.bDate);
-        EditText phoneNum = findViewById(R.id.phoneNum);
+        EditText phoneNum = findViewById(R.id.number);
         EditText emailAdd = findViewById(R.id.emailAdd);
 
         RadioButton male = findViewById(R.id.male);
@@ -51,7 +51,7 @@ public class Activity_Registration extends AppCompatActivity {
                 String name = fname.concat(" ").concat(lname);
                 String gender;
 
-                if(female.isSelected()) gender = "Female";
+                if(female.isChecked()) gender = "Female";
                 else gender = "Male";
 
                 String bdate = bDate.getText().toString();

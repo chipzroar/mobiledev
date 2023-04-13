@@ -160,7 +160,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <EditText
-        android:id="@+id/phoneNum"
+        android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -177,7 +177,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneNum" />
+        app:layout_constraintTop_toBottomOf="@+id/number" />
 
     <Button
         android:id="@+id/btnClear"
@@ -188,6 +188,7 @@
         android:layout_marginTop="234dp"
         android:layout_marginBottom="155dp"
         android:text="Clear"
+        app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
@@ -201,6 +202,7 @@
         android:layout_marginRight="109dp"
         android:layout_marginBottom="155dp"
         android:text="Submit"
+        app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailAdd" />
